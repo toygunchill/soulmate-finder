@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Soulmate Finder",
+    "slug": "soulmate-finder-mobile",
+    "scheme": "soulmatefinder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "../public/placeholder-logo.png",
+    "splash": {
+      "image": "../public/placeholder.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f0f"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.soulmatefinder.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "../public/placeholder-logo.png",
+        "backgroundColor": "#0f0f0f"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      ["expo-router", {
+        "origin": "https://github.com/expo/router"
+      }]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "00000000-0000-4000-8000-000000000000"
+      }
+    }
+  }
+}
