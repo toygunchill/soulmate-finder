@@ -2,6 +2,7 @@
 
 SwiftUI tabanlı iOS uygulaması örneği. Minimum iOS 16 desteği ile geliştirilmiş olup kullanıcıların ruh eşi görsellerini oluşturmasına ve uyumluluk analizleri yapmasına olanak tanır.
 
+
 ## Projeyi Açma
 1. Xcode 15 veya üzeri bir sürüm kullanın.
 2. Depoda `mobile/ios/WIYS/WIYS.xcodeproj` dosyasını açın.
